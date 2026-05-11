@@ -1,0 +1,36 @@
+# Secrets — NE JAMAIS COMMITTER
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Données (trop volumineuses pour Git)
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+data/quarantine/
+
+# Logs
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store
+
+# Airflow
+airflow.db
